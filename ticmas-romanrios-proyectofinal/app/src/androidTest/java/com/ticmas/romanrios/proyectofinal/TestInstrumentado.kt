@@ -53,7 +53,7 @@ class MainActivityTest {
 
         // Verificar que el resultado en el TextView sea correcto
         Espresso.onView(ViewMatchers.withId(R.id.resultTextView))
-            .check(ViewAssertions.matches(ViewMatchers.withText("Resultado: Las textos son DIFERENTES")))
+            .check(ViewAssertions.matches(ViewMatchers.withText("Resultado: Los textos son DIFERENTES")))
     }
 
     @Test
