@@ -1,11 +1,5 @@
 # Proyecto final - Desarrollo de aplicaciones móviles
-Argentina Programa 4.0 | Ticmas Academy
-
-Román Ríos
-
-Proyecto creado en Android Studio
-
-Presentación de Actividad 1 y Proyecto final integrador
+Argentina Programa 4.0 - Ticmas Academy - Curso de Desarrollo de aplicaciones móviles - Presentación de actividad y proyecto final integrador - Román Ríos
 
 [Word .doc correspondiente a la Actividad 1](https://github.com/romanrios/ticmas-desarrollo-aplicaciones-moviles/raw/main/Rom%C3%A1n%20R%C3%ADos%20-%20Actividad%201.doc)
 
