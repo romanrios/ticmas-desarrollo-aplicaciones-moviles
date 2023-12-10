@@ -33,6 +33,7 @@ Crear un emulador del tipo Tablet, con un tamaño de pantalla de al menos 8”.
 1.	Correr la aplicación en el emulador en orientación Portrait (vertical).
 2.	Correr la aplicación en el emulador en orientación Landscape (horizontal).
 
+
 ![image005](https://github.com/romanrios/ticmas-desarrollo-aplicaciones-moviles/assets/122373737/39ab6ada-42d0-45a2-bbc4-0c43072a6266)
 
 ![image007](https://github.com/romanrios/ticmas-desarrollo-aplicaciones-moviles/assets/122373737/41b963ab-470d-4209-942d-2ea2f97a6915)
@@ -131,11 +132,11 @@ Desarrollá una aplicación que tenga un solo activity que cumpla con las siguie
 
 Contenga una única pantalla (sin importar el layout elegido) con:
 
-• 2 cuadros de textos (EditText)
+- 2 cuadros de textos (EditText)
 
-• 1 botón con el texto “comparar”
+- 1 botón con el texto “comparar”
 
-• 1 texto (TextView) que en el que se escriba el resultado de la acción al presionar el botón.
+- 1 texto (TextView) que en el que se escriba el resultado de la acción al presionar el botón.
 
  
 
@@ -195,77 +196,77 @@ Solo emplea un LinearLayout, es sencilla y se acomoda bien a distintos formatos 
 
 Previamente revisé si tenía las dependencias necesarias en ‘gradle.bundle’ comparando mi proyecto con el ejemplo de Laboratorio que vimos en el cursado, algunas ya se encontraban presente en mi archivo, otras tuve que agregarlas, realicé una pequeña investigación para tener presente para qué sirven y luego poder removerlas en el futuro si no llegara a usarlas.
 
-Dependencias para Kotlin y Coroutines:
+**Dependencias para Kotlin y Coroutines:**
 
-implementation "androidx.fragment:fragment-ktx:1.5.4":
+    implementation "androidx.fragment:fragment-ktx:1.5.4":
 
 Proporciona extensiones de Kotlin para trabajar con fragments.
 
-implementation "androidx.activity:activity-ktx:1.6.1":
+    implementation "androidx.activity:activity-ktx:1.6.1":
 
 Proporciona extensiones de Kotlin para trabajar con activities.
 
-implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1":
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1":
 
 Proporciona extensiones de Kotlin para trabajar con ViewModel del ciclo de vida.
 
-implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1":
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1":
 
 Proporciona extensiones de Kotlin para trabajar con LiveData del ciclo de vida.
 
-implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1':
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1':
 
 Proporciona soporte para Coroutines en Android.
 
  
 
-Dependencias para testing:
+**Dependencias para testing:**
 
-testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.1":
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.1":
 
 Proporciona clases de ayuda para testing de Coroutines.
 
-testImplementation "androidx.arch.core:core-testing:2.1.0":
+    testImplementation "androidx.arch.core:core-testing:2.1.0":
 
 Proporciona clases de ayuda para testing de componentes LiveData.
 
-androidTestImplementation 'com.android.support.test:rules:1.0.2':
+    androidTestImplementation 'com.android.support.test:rules:1.0.2':
 
 Proporciona reglas y funcionalidades para testing de Android.
 
-androidTestImplementation 'com.android.support.test:runner:1.0.2':
+    androidTestImplementation 'com.android.support.test:runner:1.0.2':
 
 Proporciona el runner necesario para realizar pruebas instrumentadas.
 
-androidTestImplementation 'androidx.test.ext:junit:1.1.5':
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5':
 
 Proporciona clases de ayuda para testing de JUnit 4 en pruebas instrumentadas.
 
-androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1':
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1':
 
 Proporciona clases y métodos para realizar pruebas de UI utilizando Espresso.
 
-testImplementation 'junit:junit:4.13.2':
+    testImplementation 'junit:junit:4.13.2':
 
 Proporciona la biblioteca de JUnit para realizar pruebas unitarias.
 
  
 
-Dependencias para componentes de diseño:
+**Dependencias para componentes de diseño:**
 
-implementation 'androidx.core:core-ktx:1.8.0':
+    implementation 'androidx.core:core-ktx:1.8.0':
 
 Extensiones de Kotlin para trabajar con bibliotecas de compatibilidad de Android.
 
-implementation 'androidx.appcompat:appcompat:1.4.1':
+    implementation 'androidx.appcompat:appcompat:1.4.1':
 
 Compatibilidad con versiones anteriores de Android.
 
-implementation 'com.google.android.material:material:1.5.0':
+    implementation 'com.google.android.material:material:1.5.0':
 
 Proporciona estilos y componentes de diseño de Material Design para la UI.
 
-implementation 'androidx.constraintlayout:constraintlayout:2.1.4':
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4':
 
 Proporciona una biblioteca para trabajar con el diseño de constraints en las vistas.
 
