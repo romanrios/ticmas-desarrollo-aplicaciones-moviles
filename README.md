@@ -1,6 +1,10 @@
 # Proyecto final - Desarrollo de aplicaciones móviles
 
-Argentina Programa 4.0 | Ticmas Academy | Curso de Desarrollo de aplicaciones móviles | Presentación de actividad y proyecto final integrador | Román Ríos
+Argentina Programa 4.0 | Ticmas Academy | Curso de Desarrollo de aplicaciones móviles
+
+Presentación de actividad y proyecto final integrador
+
+Román Ríos
 
 ![WhatsApp Image 2023-07-25 at 14 14 55](https://github.com/romanrios/ticmas-desarrollo-aplicaciones-moviles/assets/122373737/d6069add-d24e-4a2d-808f-7799561b0717)
 
