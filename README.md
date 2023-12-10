@@ -1,30 +1,18 @@
 # Proyecto final - Desarrollo de aplicaciones móviles
 
-Argentina Programa 4.0 - Ticmas Academy - Curso de Desarrollo de aplicaciones móviles - Presentación de actividad y proyecto final integrador - Román Ríos
+Argentina Programa 4.0 | Ticmas Academy | Curso de Desarrollo de aplicaciones móviles | Presentación de actividad y proyecto final integrador | Román Ríos
 
 ![WhatsApp Image 2023-07-25 at 14 14 55](https://github.com/romanrios/ticmas-desarrollo-aplicaciones-moviles/assets/122373737/d6069add-d24e-4a2d-808f-7799561b0717)
 
 
-## Actividad 1
-
-Requerimientos
-
-Generá un archivo .doc con lo planteado en la consigna. Adjuntá los resultados de este ejercicio en el proyecto final que entregarás al final de este recorrido.
-
-
-Ejercicio práctico
-
-Introducción a Android
+## Actividad previa al proyecto integrador
 
 Crear una aplicación utilizando Android Studio con las siguientes especificaciones:
 
-•	Nombre: AppPractica1
-
-•	Nombre del paquete: com.curso.android.app.practica.uno
-
-•	Versión mínima a soportar: Android 5
-
-•	Basa en un template del tipo: Vista Primaria con Detalle
+-	Nombre: AppPractica1
+-	Nombre del paquete: com.curso.android.app.practica.uno
+-	Versión mínima a soportar: Android 5
+-	Basa en un template del tipo: Vista Primaria con Detalle
 
  
 **Actividad 1**
@@ -40,11 +28,9 @@ Crear un emulador del tipo Tablet, con un tamaño de pantalla de al menos 8”.
 
 **Actividad 2**
 
-Crear un emulador del tipo Teléfono.
-
-Correr la aplicación en el emulador en orientación Portrait (vertical).
-
-Correr la aplicación en el emulador en orientación Landscape (horizontal).
+- Crear un emulador del tipo Teléfono.
+- Correr la aplicación en el emulador en orientación Portrait (vertical).
+- Correr la aplicación en el emulador en orientación Landscape (horizontal).
 
 ![image009](https://github.com/romanrios/ticmas-desarrollo-aplicaciones-moviles/assets/122373737/6ceeb5ae-aa60-4a32-bde7-9016b76e1e24)
 
@@ -53,20 +39,16 @@ Correr la aplicación en el emulador en orientación Landscape (horizontal).
 **Actividad 3**
 
 En ambos los casos:
-
-Indicar que configuración tiene cada emulador creado (versión de Android, tamaño de pantalla, memoria RAM).
-Realizar capturas de pantalla de cómo se ven todas las pantallas de la aplicación en cada configuración.
+- Indicar que configuración tiene cada emulador creado (versión de Android, tamaño de pantalla, memoria RAM).
+- Realizar capturas de pantalla de cómo se ven todas las pantallas de la aplicación en cada configuración.
  
 
 **Respuesta:**
 
 **Tablet: Nexus 9**
-
-Versión de Android: API 30 / Android 11.0
-
-Tamaño de pantalla: 8,86” / 2048 x 1536 px
-
-Memoria RAM: 1536 MB
+- Versión de Android: API 30 / Android 11.0
+- Tamaño de pantalla: 8,86” / 2048 x 1536 px
+- Memoria RAM: 1536 MB
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/romanrios/ticmas-desarrollo-aplicaciones-moviles/assets/122373737/5678f78c-b4fe-4bdb-a6dc-224b92d3d5bb" alt="Imagen 1" width="400"/>
@@ -74,12 +56,9 @@ Memoria RAM: 1536 MB
 </div>
 
 **Teléfono: Pixel 2**
-
-Versión de Android: API 30 / Android 11.0
-
-Tamaño de pantalla: 5,0” / 1080 x 1920 px
-
-Memoria RAM: 1536 MB
+- Versión de Android: API 30 / Android 11.0
+- Tamaño de pantalla: 5,0” / 1080 x 1920 px
+- Memoria RAM: 1536 MB
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/romanrios/ticmas-desarrollo-aplicaciones-moviles/assets/122373737/78130605-9fc9-41e7-beb4-0110fe8aea92" alt="Imagen 1" width="300"/>
@@ -105,9 +84,7 @@ En cambio, en un teléfono con orientación Portrait, debido a la pantalla más 
  
 
 Actividad extra
-
 1. ¿En qué archivo está el nombre de tu aplicación? Probá cambiarlo y correr la aplicación nuevamente.
-
 2. ¿Y el ícono?
 
  
@@ -127,25 +104,17 @@ Para crear o modificar el ícono de la aplicación, podemos utilizar Asset Studi
 **CONSIGNA**
 
 Desarrollá una aplicación que tenga un solo activity que cumpla con las siguientes premisas:
-
  
 
 Contenga una única pantalla (sin importar el layout elegido) con:
-
 - 2 cuadros de textos (EditText)
-
 - 1 botón con el texto “comparar”
-
 - 1 texto (TextView) que en el que se escriba el resultado de la acción al presionar el botón.
 
  
-
 Asegurarse de que:
-
 1. Utiliza MVVM
-
 2. Tiene al menos un test unitario
-
 3. Tiene al menos un test de UI
 
  
@@ -156,28 +125,20 @@ Cuando el usuario hace clic en el botón “comparar” debe comparar la entrada
 
  
 
-Requerimientos
-
+**Requerimientos**
 1. Usá un repositorio de GitHub pages para subir tu proyecto (Repositorio app laboratorio: https://github.com/eaceto/ticmas-lab-android Con lo visto en el último módulo del curso, vas a poder subir sin problema tu proyecto a la web.
-
 2. Generá un archivo .doc con lo planteado en la consigna y el link de tu entregable.
-
 3. Luego, subilo en el bloque "Proyectos" que se encuentra en la página principal del curso, en la plataforma.
 
 
 **CREANDO EL NUEVO PROYECTO**
 
 Para cumplir con lo solicitado en la consigna, creé un nuevo proyecto con las siguientes especificaciones:
-
-Plantilla: Empty Views Activity
-
-Nombre: Proyecto Final
-
-Package Name: com.ticmas.romanrios.proyectofinal
-
-SDK mínimo: API 21 – Android 5.0 (Lollipop)
-
-Lenguaje: Kotlin
+- Plantilla: Empty Views Activity
+- Nombre: Proyecto Final
+- Package Name: com.ticmas.romanrios.proyectofinal
+- SDK mínimo: API 21 – Android 5.0 (Lollipop)
+- Lenguaje: Kotlin
 
  
 
